@@ -6,7 +6,15 @@ use \core\Controller;
 class HomeController extends Controller {
 
     public function index() {
-        $this->render('home', ['nome' => 'Bonieky']);
+        $this->render('home');
+    }
+
+    public function fotos() {
+        $this->render('fotos');
+    }
+
+    public function foto($idFoto) {
+        echo 'unica foto';
     }
 
     public function sobre() {
