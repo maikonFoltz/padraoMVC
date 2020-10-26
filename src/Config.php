@@ -5,8 +5,8 @@ class Config {
     const BASE_DIR = '/padraoMVC/public';
 
     const DB_DRIVER = 'mysql';
-    const DB_HOST = 'localhost:8888';
-    const DB_DATABASE = 'testePHP';
+    const DB_HOST = 'localhost';
+    const DB_DATABASE = 'usuarios';
     CONST DB_USER = 'admin';
     const DB_PASS = 'admin';
 
